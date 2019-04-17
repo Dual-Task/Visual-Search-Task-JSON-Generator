@@ -1,0 +1,20 @@
+{
+  "version": "1.0",
+  "gridWidth": 10,
+  "gridHeight": 10,
+  "gridMinValue": 10,
+  "gridMaxValue": 100,
+  "gridTargetNumber": 57,
+  "gridTargetNumberInclusionProbability": 0.50,
+  "gridNumberOfStimuli": 36,
+  "studyConditions": [
+    "Visual Search",
+    "Visual Search + Watch",
+    "Visual Search + HUD"
+  ],
+  "studyNumberOfGridsPerCondition": 5,
+  "studySessions": [
+    "training",
+    "testing"
+  ]
+}
