@@ -18,7 +18,7 @@
   ],
   "studySessionToNumberOfRuns": {
     "training": 1,
-    "testing": 1
+    "testing": 2
   },
   "studyNumberOfGridsPerRun": 10
 }
