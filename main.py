@@ -104,6 +104,10 @@ def main():
     with open(CONFIG_FILE, 'r') as config_file:
         config = json.load(config_file)
 
+    version = config['version']
+
+    assert version == VERSION
+
     width = config['gridWidth']
     height = config['gridHeight']
 
