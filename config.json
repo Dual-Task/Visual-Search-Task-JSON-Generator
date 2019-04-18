@@ -20,5 +20,5 @@
     "training": 1,
     "testing": 2
   },
-  "studyNumberOfGridsPerRun": 10
+  "studyNumberOfGridsPerRun": 30
 }
