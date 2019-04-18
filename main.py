@@ -7,11 +7,11 @@ import json
 import random
 import uuid
 
-VERSION = '1.0'
+VERSION = '1.1'
 
 CONFIG_FILE = 'config.json'
 
-OUTPUT_FILE = 'output.json'
+GRIDS_FILE = 'grids.json'
 
 SEED = 42
 random.seed(SEED)
@@ -96,7 +96,7 @@ def generate_random_grid(width, height,
                 grid[x_pos][y_pos] = target_number
                 break
 
-    return grid
+    return grid, should_insert_target_number
 
 
 def main():
@@ -104,21 +104,19 @@ def main():
     with open(CONFIG_FILE, 'r') as config_file:
         config = json.load(config_file)
 
-    config['grid'] = config['grid']
+    width = config['gridWidth']
+    height = config['gridHeight']
 
-    width = config['grid']['width']
-    height = config['grid']['height']
+    min_value = config['gridMinValue']
+    max_value = config['gridMaxValue']
 
-    min_value = config['grid']['minValue']
-    max_value = config['grid']['maxValue']
+    target_number = config['gridTargetNumber']
+    target_number_inclusion_probability = config['gridTargetNumberInclusionProbability']
+    number_of_stimuli = config['gridNumberOfStimuli']
 
-    target_number = config['grid']['targetNumber']
-    target_number_inclusion_probability = config['grid']['targetNumberInclusionProbability']
-    number_of_stimuli = config['grid']['numberOfStimuli']
-
-    conditions = config['study']['conditions']
-    number_of_grids_per_condition = config['study']['numberOfGridsPerCondition']
-    sessions = config['study']['sessions']
+    conditions = config['studyConditions']
+    number_of_grids_per_condition = config['studyNumberOfGridsPerCondition']
+    sessions = config['studySessions']
 
     # Begin generating outputs
     grids = []
@@ -130,7 +128,7 @@ def main():
             # For each grid
             for grid_index_in_condition in range(number_of_grids_per_condition):
                 # Get a new grid
-                grid = generate_random_grid(
+                grid, does_include_target_number = generate_random_grid(
                     width=width,
                     height=height,
                     number_of_stimuli=number_of_stimuli,
@@ -145,6 +143,7 @@ def main():
                     'session': session,
                     'condition': condition,
                     'targetNumber': target_number,
+                    'doesIncludeTargetNumber': does_include_target_number,
                     'width': width,
                     'height': height,
                     'minValue': min_value,
@@ -157,8 +156,8 @@ def main():
                 })
 
     # Write the grid to the output file
-    with open(OUTPUT_FILE, 'w+') as output_file:
-        json.dump(grids, fp=output_file, indent=4)
+    with open(GRIDS_FILE, 'w+') as output_file:
+        json.dump(grids, fp=output_file, indent=4, sort_keys=True)
 
 
 if __name__ == '__main__':

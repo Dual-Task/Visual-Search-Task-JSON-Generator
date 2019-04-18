@@ -1,18 +1,17 @@
 [
     {
+        "condition": "Visual Search", 
+        "doesIncludeTargetNumber": true, 
+        "gridIndexInCondition": 0, 
+        "height": 10, 
+        "id": "a5fbfd02-1a0f-49a2-95b8-11e4ae4c7c81", 
         "maxValue": 100, 
         "minValue": 10, 
         "numberOfGridsPerCondition": 5, 
-        "session": "training", 
-        "height": 10, 
-        "id": "309d6c55-04e1-4648-b1db-9e41b31ca834", 
-        "condition": "Visual Search", 
-        "targetNumber": 57, 
-        "gridIndexInCondition": 0, 
-        "targetNumberInclusionProbability": 0.5, 
         "numberOfStimuli": 36, 
-        "width": 10, 
-        "version": "1.0", 
+        "session": "training", 
+        "targetNumber": 57, 
+        "targetNumberInclusionProbability": 0.5, 
         "values": [
             [
                 null, 
@@ -134,22 +133,23 @@
                 68, 
                 null
             ]
-        ]
+        ], 
+        "version": "1.1", 
+        "width": 10
     }, 
     {
+        "condition": "Visual Search", 
+        "doesIncludeTargetNumber": false, 
+        "gridIndexInCondition": 1, 
+        "height": 10, 
+        "id": "34f98a85-8218-47f4-8814-609f24660d77", 
         "maxValue": 100, 
         "minValue": 10, 
         "numberOfGridsPerCondition": 5, 
-        "session": "training", 
-        "height": 10, 
-        "id": "56257672-360c-4c21-8fea-9c0dbb545ff1", 
-        "condition": "Visual Search", 
-        "targetNumber": 57, 
-        "gridIndexInCondition": 1, 
-        "targetNumberInclusionProbability": 0.5, 
         "numberOfStimuli": 36, 
-        "width": 10, 
-        "version": "1.0", 
+        "session": "training", 
+        "targetNumber": 57, 
+        "targetNumberInclusionProbability": 0.5, 
         "values": [
             [
                 null, 
@@ -271,22 +271,23 @@
                 null, 
                 null
             ]
-        ]
+        ], 
+        "version": "1.1", 
+        "width": 10
     }, 
     {
+        "condition": "Visual Search", 
+        "doesIncludeTargetNumber": true, 
+        "gridIndexInCondition": 2, 
+        "height": 10, 
+        "id": "03ef43a3-f56a-4b66-8926-98f74950fe4f", 
         "maxValue": 100, 
         "minValue": 10, 
         "numberOfGridsPerCondition": 5, 
-        "session": "training", 
-        "height": 10, 
-        "id": "02b90763-6713-4551-8d8c-24ea8e1e637e", 
-        "condition": "Visual Search", 
-        "targetNumber": 57, 
-        "gridIndexInCondition": 2, 
-        "targetNumberInclusionProbability": 0.5, 
         "numberOfStimuli": 36, 
-        "width": 10, 
-        "version": "1.0", 
+        "session": "training", 
+        "targetNumber": 57, 
+        "targetNumberInclusionProbability": 0.5, 
         "values": [
             [
                 null, 
@@ -408,22 +409,23 @@
                 null, 
                 null
             ]
-        ]
+        ], 
+        "version": "1.1", 
+        "width": 10
     }, 
     {
+        "condition": "Visual Search", 
+        "doesIncludeTargetNumber": false, 
+        "gridIndexInCondition": 3, 
+        "height": 10, 
+        "id": "bae6603f-680f-4ae3-b557-c4d9794b6280", 
         "maxValue": 100, 
         "minValue": 10, 
         "numberOfGridsPerCondition": 5, 
-        "session": "training", 
-        "height": 10, 
-        "id": "23778c6d-236a-431a-9c77-ea677ad04147", 
-        "condition": "Visual Search", 
-        "targetNumber": 57, 
-        "gridIndexInCondition": 3, 
-        "targetNumberInclusionProbability": 0.5, 
         "numberOfStimuli": 36, 
-        "width": 10, 
-        "version": "1.0", 
+        "session": "training", 
+        "targetNumber": 57, 
+        "targetNumberInclusionProbability": 0.5, 
         "values": [
             [
                 null, 
@@ -545,22 +547,23 @@
                 null, 
                 null
             ]
-        ]
+        ], 
+        "version": "1.1", 
+        "width": 10
     }, 
     {
+        "condition": "Visual Search", 
+        "doesIncludeTargetNumber": false, 
+        "gridIndexInCondition": 4, 
+        "height": 10, 
+        "id": "6dcb666b-7ed9-4ab7-bda2-a9660c5e91cf", 
         "maxValue": 100, 
         "minValue": 10, 
         "numberOfGridsPerCondition": 5, 
-        "session": "training", 
-        "height": 10, 
-        "id": "8d601386-8069-45b9-8872-e6be449291fe", 
-        "condition": "Visual Search", 
-        "targetNumber": 57, 
-        "gridIndexInCondition": 4, 
-        "targetNumberInclusionProbability": 0.5, 
         "numberOfStimuli": 36, 
-        "width": 10, 
-        "version": "1.0", 
+        "session": "training", 
+        "targetNumber": 57, 
+        "targetNumberInclusionProbability": 0.5, 
         "values": [
             [
                 null, 
@@ -682,22 +685,23 @@
                 null, 
                 96
             ]
-        ]
+        ], 
+        "version": "1.1", 
+        "width": 10
     }, 
     {
+        "condition": "Visual Search + Watch", 
+        "doesIncludeTargetNumber": true, 
+        "gridIndexInCondition": 0, 
+        "height": 10, 
+        "id": "f7c6e651-674e-4f2e-b63f-07ae8a572de8", 
         "maxValue": 100, 
         "minValue": 10, 
         "numberOfGridsPerCondition": 5, 
-        "session": "training", 
-        "height": 10, 
-        "id": "b6a017f0-40f2-46c5-87d4-eb012e961bf3", 
-        "condition": "Visual Search + Watch", 
-        "targetNumber": 57, 
-        "gridIndexInCondition": 0, 
-        "targetNumberInclusionProbability": 0.5, 
         "numberOfStimuli": 36, 
-        "width": 10, 
-        "version": "1.0", 
+        "session": "training", 
+        "targetNumber": 57, 
+        "targetNumberInclusionProbability": 0.5, 
         "values": [
             [
                 null, 
@@ -819,22 +823,23 @@
                 42, 
                 null
             ]
-        ]
+        ], 
+        "version": "1.1", 
+        "width": 10
     }, 
     {
+        "condition": "Visual Search + Watch", 
+        "doesIncludeTargetNumber": true, 
+        "gridIndexInCondition": 1, 
+        "height": 10, 
+        "id": "02cb4ed5-d3e9-4312-be7e-0ddc245293d0", 
         "maxValue": 100, 
         "minValue": 10, 
         "numberOfGridsPerCondition": 5, 
-        "session": "training", 
-        "height": 10, 
-        "id": "a09f48eb-6385-49ce-ab2e-9252251f058d", 
-        "condition": "Visual Search + Watch", 
-        "targetNumber": 57, 
-        "gridIndexInCondition": 1, 
-        "targetNumberInclusionProbability": 0.5, 
         "numberOfStimuli": 36, 
-        "width": 10, 
-        "version": "1.0", 
+        "session": "training", 
+        "targetNumber": 57, 
+        "targetNumberInclusionProbability": 0.5, 
         "values": [
             [
                 null, 
@@ -956,22 +961,23 @@
                 null, 
                 null
             ]
-        ]
+        ], 
+        "version": "1.1", 
+        "width": 10
     }, 
     {
+        "condition": "Visual Search + Watch", 
+        "doesIncludeTargetNumber": false, 
+        "gridIndexInCondition": 2, 
+        "height": 10, 
+        "id": "fba21cac-f240-4527-8d51-a7875a25de83", 
         "maxValue": 100, 
         "minValue": 10, 
         "numberOfGridsPerCondition": 5, 
-        "session": "training", 
-        "height": 10, 
-        "id": "e2215981-61c3-4f99-839f-94e7e2aeee14", 
-        "condition": "Visual Search + Watch", 
-        "targetNumber": 57, 
-        "gridIndexInCondition": 2, 
-        "targetNumberInclusionProbability": 0.5, 
         "numberOfStimuli": 36, 
-        "width": 10, 
-        "version": "1.0", 
+        "session": "training", 
+        "targetNumber": 57, 
+        "targetNumberInclusionProbability": 0.5, 
         "values": [
             [
                 50, 
@@ -1093,22 +1099,23 @@
                 null, 
                 null
             ]
-        ]
+        ], 
+        "version": "1.1", 
+        "width": 10
     }, 
     {
+        "condition": "Visual Search + Watch", 
+        "doesIncludeTargetNumber": false, 
+        "gridIndexInCondition": 3, 
+        "height": 10, 
+        "id": "62273b07-0ac8-4eaa-9ce1-403a495fbc6e", 
         "maxValue": 100, 
         "minValue": 10, 
         "numberOfGridsPerCondition": 5, 
-        "session": "training", 
-        "height": 10, 
-        "id": "f96bac6f-4753-4d1d-8bfb-864a2c6e0026", 
-        "condition": "Visual Search + Watch", 
-        "targetNumber": 57, 
-        "gridIndexInCondition": 3, 
-        "targetNumberInclusionProbability": 0.5, 
         "numberOfStimuli": 36, 
-        "width": 10, 
-        "version": "1.0", 
+        "session": "training", 
+        "targetNumber": 57, 
+        "targetNumberInclusionProbability": 0.5, 
         "values": [
             [
                 null, 
@@ -1230,22 +1237,23 @@
                 null, 
                 null
             ]
-        ]
+        ], 
+        "version": "1.1", 
+        "width": 10
     }, 
     {
+        "condition": "Visual Search + Watch", 
+        "doesIncludeTargetNumber": true, 
+        "gridIndexInCondition": 4, 
+        "height": 10, 
+        "id": "407b125f-2712-4a08-95cf-fad698127e6e", 
         "maxValue": 100, 
         "minValue": 10, 
         "numberOfGridsPerCondition": 5, 
-        "session": "training", 
-        "height": 10, 
-        "id": "50c92057-72af-4a5f-85ff-561979be0a0a", 
-        "condition": "Visual Search + Watch", 
-        "targetNumber": 57, 
-        "gridIndexInCondition": 4, 
-        "targetNumberInclusionProbability": 0.5, 
         "numberOfStimuli": 36, 
-        "width": 10, 
-        "version": "1.0", 
+        "session": "training", 
+        "targetNumber": 57, 
+        "targetNumberInclusionProbability": 0.5, 
         "values": [
             [
                 null, 
@@ -1367,22 +1375,23 @@
                 28, 
                 null
             ]
-        ]
+        ], 
+        "version": "1.1", 
+        "width": 10
     }, 
     {
+        "condition": "Visual Search + HUD", 
+        "doesIncludeTargetNumber": true, 
+        "gridIndexInCondition": 0, 
+        "height": 10, 
+        "id": "b2bf3968-05f6-47eb-8f5d-6f18c77ff41f", 
         "maxValue": 100, 
         "minValue": 10, 
         "numberOfGridsPerCondition": 5, 
-        "session": "training", 
-        "height": 10, 
-        "id": "a4a46f87-9ca8-4a3f-86cb-1c94126a54e5", 
-        "condition": "Visual Search + HUD", 
-        "targetNumber": 57, 
-        "gridIndexInCondition": 0, 
-        "targetNumberInclusionProbability": 0.5, 
         "numberOfStimuli": 36, 
-        "width": 10, 
-        "version": "1.0", 
+        "session": "training", 
+        "targetNumber": 57, 
+        "targetNumberInclusionProbability": 0.5, 
         "values": [
             [
                 null, 
@@ -1504,22 +1513,23 @@
                 null, 
                 71
             ]
-        ]
+        ], 
+        "version": "1.1", 
+        "width": 10
     }, 
     {
+        "condition": "Visual Search + HUD", 
+        "doesIncludeTargetNumber": true, 
+        "gridIndexInCondition": 1, 
+        "height": 10, 
+        "id": "52a9fcd1-673d-4664-9a84-d1e6e95d72ca", 
         "maxValue": 100, 
         "minValue": 10, 
         "numberOfGridsPerCondition": 5, 
-        "session": "training", 
-        "height": 10, 
-        "id": "e61b1db3-4da5-4df6-b708-cd5e976903d1", 
-        "condition": "Visual Search + HUD", 
-        "targetNumber": 57, 
-        "gridIndexInCondition": 1, 
-        "targetNumberInclusionProbability": 0.5, 
         "numberOfStimuli": 36, 
-        "width": 10, 
-        "version": "1.0", 
+        "session": "training", 
+        "targetNumber": 57, 
+        "targetNumberInclusionProbability": 0.5, 
         "values": [
             [
                 11, 
@@ -1641,22 +1651,23 @@
                 null, 
                 null
             ]
-        ]
+        ], 
+        "version": "1.1", 
+        "width": 10
     }, 
     {
+        "condition": "Visual Search + HUD", 
+        "doesIncludeTargetNumber": false, 
+        "gridIndexInCondition": 2, 
+        "height": 10, 
+        "id": "1de8b9f0-52f2-479b-9176-a24a5ff6c406", 
         "maxValue": 100, 
         "minValue": 10, 
         "numberOfGridsPerCondition": 5, 
-        "session": "training", 
-        "height": 10, 
-        "id": "1a5283ac-e8be-4808-90cf-e32ee4733a28", 
-        "condition": "Visual Search + HUD", 
-        "targetNumber": 57, 
-        "gridIndexInCondition": 2, 
-        "targetNumberInclusionProbability": 0.5, 
         "numberOfStimuli": 36, 
-        "width": 10, 
-        "version": "1.0", 
+        "session": "training", 
+        "targetNumber": 57, 
+        "targetNumberInclusionProbability": 0.5, 
         "values": [
             [
                 null, 
@@ -1778,22 +1789,23 @@
                 null, 
                 25
             ]
-        ]
+        ], 
+        "version": "1.1", 
+        "width": 10
     }, 
     {
+        "condition": "Visual Search + HUD", 
+        "doesIncludeTargetNumber": false, 
+        "gridIndexInCondition": 3, 
+        "height": 10, 
+        "id": "9f599d40-1aca-4185-a15c-c9c6563d91a6", 
         "maxValue": 100, 
         "minValue": 10, 
         "numberOfGridsPerCondition": 5, 
-        "session": "training", 
-        "height": 10, 
-        "id": "0e63441a-ae59-4000-bc78-8dde327d0807", 
-        "condition": "Visual Search + HUD", 
-        "targetNumber": 57, 
-        "gridIndexInCondition": 3, 
-        "targetNumberInclusionProbability": 0.5, 
         "numberOfStimuli": 36, 
-        "width": 10, 
-        "version": "1.0", 
+        "session": "training", 
+        "targetNumber": 57, 
+        "targetNumberInclusionProbability": 0.5, 
         "values": [
             [
                 91, 
@@ -1915,22 +1927,23 @@
                 null, 
                 null
             ]
-        ]
+        ], 
+        "version": "1.1", 
+        "width": 10
     }, 
     {
+        "condition": "Visual Search + HUD", 
+        "doesIncludeTargetNumber": false, 
+        "gridIndexInCondition": 4, 
+        "height": 10, 
+        "id": "4c1e8ec2-e690-411d-9acb-4484763c2f36", 
         "maxValue": 100, 
         "minValue": 10, 
         "numberOfGridsPerCondition": 5, 
-        "session": "training", 
-        "height": 10, 
-        "id": "dcededcd-5af4-4101-812e-961b55b0eb78", 
-        "condition": "Visual Search + HUD", 
-        "targetNumber": 57, 
-        "gridIndexInCondition": 4, 
-        "targetNumberInclusionProbability": 0.5, 
         "numberOfStimuli": 36, 
-        "width": 10, 
-        "version": "1.0", 
+        "session": "training", 
+        "targetNumber": 57, 
+        "targetNumberInclusionProbability": 0.5, 
         "values": [
             [
                 null, 
@@ -2052,22 +2065,23 @@
                 null, 
                 null
             ]
-        ]
+        ], 
+        "version": "1.1", 
+        "width": 10
     }, 
     {
+        "condition": "Visual Search", 
+        "doesIncludeTargetNumber": true, 
+        "gridIndexInCondition": 0, 
+        "height": 10, 
+        "id": "57fc4a6c-417e-499f-b528-ebc1db720703", 
         "maxValue": 100, 
         "minValue": 10, 
         "numberOfGridsPerCondition": 5, 
-        "session": "testing", 
-        "height": 10, 
-        "id": "a8b1b43b-1233-49bb-82bb-55222455a825", 
-        "condition": "Visual Search", 
-        "targetNumber": 57, 
-        "gridIndexInCondition": 0, 
-        "targetNumberInclusionProbability": 0.5, 
         "numberOfStimuli": 36, 
-        "width": 10, 
-        "version": "1.0", 
+        "session": "testing", 
+        "targetNumber": 57, 
+        "targetNumberInclusionProbability": 0.5, 
         "values": [
             [
                 null, 
@@ -2189,22 +2203,23 @@
                 null, 
                 null
             ]
-        ]
+        ], 
+        "version": "1.1", 
+        "width": 10
     }, 
     {
+        "condition": "Visual Search", 
+        "doesIncludeTargetNumber": true, 
+        "gridIndexInCondition": 1, 
+        "height": 10, 
+        "id": "03388ffb-f946-4215-9919-19e71638c0b5", 
         "maxValue": 100, 
         "minValue": 10, 
         "numberOfGridsPerCondition": 5, 
-        "session": "testing", 
-        "height": 10, 
-        "id": "15b2d110-9cc0-4731-87a6-465639203caa", 
-        "condition": "Visual Search", 
-        "targetNumber": 57, 
-        "gridIndexInCondition": 1, 
-        "targetNumberInclusionProbability": 0.5, 
         "numberOfStimuli": 36, 
-        "width": 10, 
-        "version": "1.0", 
+        "session": "testing", 
+        "targetNumber": 57, 
+        "targetNumberInclusionProbability": 0.5, 
         "values": [
             [
                 null, 
@@ -2326,22 +2341,23 @@
                 null, 
                 11
             ]
-        ]
+        ], 
+        "version": "1.1", 
+        "width": 10
     }, 
     {
+        "condition": "Visual Search", 
+        "doesIncludeTargetNumber": true, 
+        "gridIndexInCondition": 2, 
+        "height": 10, 
+        "id": "e27e3cb4-6044-44ba-8d52-bc876be4e45f", 
         "maxValue": 100, 
         "minValue": 10, 
         "numberOfGridsPerCondition": 5, 
-        "session": "testing", 
-        "height": 10, 
-        "id": "329a0884-5263-4c35-b268-ad9020d30802", 
-        "condition": "Visual Search", 
-        "targetNumber": 57, 
-        "gridIndexInCondition": 2, 
-        "targetNumberInclusionProbability": 0.5, 
         "numberOfStimuli": 36, 
-        "width": 10, 
-        "version": "1.0", 
+        "session": "testing", 
+        "targetNumber": 57, 
+        "targetNumberInclusionProbability": 0.5, 
         "values": [
             [
                 null, 
@@ -2463,22 +2479,23 @@
                 98, 
                 90
             ]
-        ]
+        ], 
+        "version": "1.1", 
+        "width": 10
     }, 
     {
+        "condition": "Visual Search", 
+        "doesIncludeTargetNumber": true, 
+        "gridIndexInCondition": 3, 
+        "height": 10, 
+        "id": "a16e38cc-6dc4-4d6c-ae7e-93f14fd25761", 
         "maxValue": 100, 
         "minValue": 10, 
         "numberOfGridsPerCondition": 5, 
-        "session": "testing", 
-        "height": 10, 
-        "id": "de6721e1-abb8-4cf1-bad6-daa60722a104", 
-        "condition": "Visual Search", 
-        "targetNumber": 57, 
-        "gridIndexInCondition": 3, 
-        "targetNumberInclusionProbability": 0.5, 
         "numberOfStimuli": 36, 
-        "width": 10, 
-        "version": "1.0", 
+        "session": "testing", 
+        "targetNumber": 57, 
+        "targetNumberInclusionProbability": 0.5, 
         "values": [
             [
                 null, 
@@ -2600,22 +2617,23 @@
                 null, 
                 null
             ]
-        ]
+        ], 
+        "version": "1.1", 
+        "width": 10
     }, 
     {
+        "condition": "Visual Search", 
+        "doesIncludeTargetNumber": true, 
+        "gridIndexInCondition": 4, 
+        "height": 10, 
+        "id": "9c0318ed-4bf5-426b-ba7e-318ce0694893", 
         "maxValue": 100, 
         "minValue": 10, 
         "numberOfGridsPerCondition": 5, 
-        "session": "testing", 
-        "height": 10, 
-        "id": "8143f762-4ad0-450a-96d9-00c1c43f167f", 
-        "condition": "Visual Search", 
-        "targetNumber": 57, 
-        "gridIndexInCondition": 4, 
-        "targetNumberInclusionProbability": 0.5, 
         "numberOfStimuli": 36, 
-        "width": 10, 
-        "version": "1.0", 
+        "session": "testing", 
+        "targetNumber": 57, 
+        "targetNumberInclusionProbability": 0.5, 
         "values": [
             [
                 null, 
@@ -2737,22 +2755,23 @@
                 76, 
                 null
             ]
-        ]
+        ], 
+        "version": "1.1", 
+        "width": 10
     }, 
     {
+        "condition": "Visual Search + Watch", 
+        "doesIncludeTargetNumber": false, 
+        "gridIndexInCondition": 0, 
+        "height": 10, 
+        "id": "8ed1fedd-7978-41ad-97c9-6e04acc30fef", 
         "maxValue": 100, 
         "minValue": 10, 
         "numberOfGridsPerCondition": 5, 
-        "session": "testing", 
-        "height": 10, 
-        "id": "e6ef554c-8c13-4f4d-a0bf-34fbc68fbbee", 
-        "condition": "Visual Search + Watch", 
-        "targetNumber": 57, 
-        "gridIndexInCondition": 0, 
-        "targetNumberInclusionProbability": 0.5, 
         "numberOfStimuli": 36, 
-        "width": 10, 
-        "version": "1.0", 
+        "session": "testing", 
+        "targetNumber": 57, 
+        "targetNumberInclusionProbability": 0.5, 
         "values": [
             [
                 null, 
@@ -2874,22 +2893,23 @@
                 null, 
                 null
             ]
-        ]
+        ], 
+        "version": "1.1", 
+        "width": 10
     }, 
     {
+        "condition": "Visual Search + Watch", 
+        "doesIncludeTargetNumber": true, 
+        "gridIndexInCondition": 1, 
+        "height": 10, 
+        "id": "8c3137f6-7c2c-4dd9-85e2-b094896e8a02", 
         "maxValue": 100, 
         "minValue": 10, 
         "numberOfGridsPerCondition": 5, 
-        "session": "testing", 
-        "height": 10, 
-        "id": "03e6563a-ccf2-4f1a-803f-e2c8c67df193", 
-        "condition": "Visual Search + Watch", 
-        "targetNumber": 57, 
-        "gridIndexInCondition": 1, 
-        "targetNumberInclusionProbability": 0.5, 
         "numberOfStimuli": 36, 
-        "width": 10, 
-        "version": "1.0", 
+        "session": "testing", 
+        "targetNumber": 57, 
+        "targetNumberInclusionProbability": 0.5, 
         "values": [
             [
                 94, 
@@ -3011,22 +3031,23 @@
                 null, 
                 null
             ]
-        ]
+        ], 
+        "version": "1.1", 
+        "width": 10
     }, 
     {
+        "condition": "Visual Search + Watch", 
+        "doesIncludeTargetNumber": true, 
+        "gridIndexInCondition": 2, 
+        "height": 10, 
+        "id": "7c1a4c85-4991-4049-8d40-17f375ad82df", 
         "maxValue": 100, 
         "minValue": 10, 
         "numberOfGridsPerCondition": 5, 
-        "session": "testing", 
-        "height": 10, 
-        "id": "d6d1afb4-762e-4ec6-bf6d-5481bbd7f1bc", 
-        "condition": "Visual Search + Watch", 
-        "targetNumber": 57, 
-        "gridIndexInCondition": 2, 
-        "targetNumberInclusionProbability": 0.5, 
         "numberOfStimuli": 36, 
-        "width": 10, 
-        "version": "1.0", 
+        "session": "testing", 
+        "targetNumber": 57, 
+        "targetNumberInclusionProbability": 0.5, 
         "values": [
             [
                 36, 
@@ -3148,22 +3169,23 @@
                 null, 
                 null
             ]
-        ]
+        ], 
+        "version": "1.1", 
+        "width": 10
     }, 
     {
+        "condition": "Visual Search + Watch", 
+        "doesIncludeTargetNumber": true, 
+        "gridIndexInCondition": 3, 
+        "height": 10, 
+        "id": "feb8b7cf-a6c0-4a5d-ab0d-cb0e7cb64bfe", 
         "maxValue": 100, 
         "minValue": 10, 
         "numberOfGridsPerCondition": 5, 
-        "session": "testing", 
-        "height": 10, 
-        "id": "4f9a06ca-1704-4020-a055-8be7f3f93afc", 
-        "condition": "Visual Search + Watch", 
-        "targetNumber": 57, 
-        "gridIndexInCondition": 3, 
-        "targetNumberInclusionProbability": 0.5, 
         "numberOfStimuli": 36, 
-        "width": 10, 
-        "version": "1.0", 
+        "session": "testing", 
+        "targetNumber": 57, 
+        "targetNumberInclusionProbability": 0.5, 
         "values": [
             [
                 null, 
@@ -3285,22 +3307,23 @@
                 null, 
                 null
             ]
-        ]
+        ], 
+        "version": "1.1", 
+        "width": 10
     }, 
     {
+        "condition": "Visual Search + Watch", 
+        "doesIncludeTargetNumber": false, 
+        "gridIndexInCondition": 4, 
+        "height": 10, 
+        "id": "33503587-53be-4f67-a103-2834078fffe3", 
         "maxValue": 100, 
         "minValue": 10, 
         "numberOfGridsPerCondition": 5, 
-        "session": "testing", 
-        "height": 10, 
-        "id": "8b1b1e69-b48d-4ec1-b185-d5f579a6ed23", 
-        "condition": "Visual Search + Watch", 
-        "targetNumber": 57, 
-        "gridIndexInCondition": 4, 
-        "targetNumberInclusionProbability": 0.5, 
         "numberOfStimuli": 36, 
-        "width": 10, 
-        "version": "1.0", 
+        "session": "testing", 
+        "targetNumber": 57, 
+        "targetNumberInclusionProbability": 0.5, 
         "values": [
             [
                 null, 
@@ -3422,22 +3445,23 @@
                 null, 
                 null
             ]
-        ]
+        ], 
+        "version": "1.1", 
+        "width": 10
     }, 
     {
+        "condition": "Visual Search + HUD", 
+        "doesIncludeTargetNumber": true, 
+        "gridIndexInCondition": 0, 
+        "height": 10, 
+        "id": "4f6b3adf-c13c-46e9-a96e-c1e8ddb6372a", 
         "maxValue": 100, 
         "minValue": 10, 
         "numberOfGridsPerCondition": 5, 
-        "session": "testing", 
-        "height": 10, 
-        "id": "14bdbcea-bfd5-4db6-9a55-e3439f84d12f", 
-        "condition": "Visual Search + HUD", 
-        "targetNumber": 57, 
-        "gridIndexInCondition": 0, 
-        "targetNumberInclusionProbability": 0.5, 
         "numberOfStimuli": 36, 
-        "width": 10, 
-        "version": "1.0", 
+        "session": "testing", 
+        "targetNumber": 57, 
+        "targetNumberInclusionProbability": 0.5, 
         "values": [
             [
                 41, 
@@ -3559,22 +3583,23 @@
                 null, 
                 57
             ]
-        ]
+        ], 
+        "version": "1.1", 
+        "width": 10
     }, 
     {
+        "condition": "Visual Search + HUD", 
+        "doesIncludeTargetNumber": false, 
+        "gridIndexInCondition": 1, 
+        "height": 10, 
+        "id": "2aa4687f-cf56-4aa9-950a-49877bbf787b", 
         "maxValue": 100, 
         "minValue": 10, 
         "numberOfGridsPerCondition": 5, 
-        "session": "testing", 
-        "height": 10, 
-        "id": "7f0c362c-6d2a-410e-b111-7e1766f31862", 
-        "condition": "Visual Search + HUD", 
-        "targetNumber": 57, 
-        "gridIndexInCondition": 1, 
-        "targetNumberInclusionProbability": 0.5, 
         "numberOfStimuli": 36, 
-        "width": 10, 
-        "version": "1.0", 
+        "session": "testing", 
+        "targetNumber": 57, 
+        "targetNumberInclusionProbability": 0.5, 
         "values": [
             [
                 null, 
@@ -3696,22 +3721,23 @@
                 61, 
                 null
             ]
-        ]
+        ], 
+        "version": "1.1", 
+        "width": 10
     }, 
     {
+        "condition": "Visual Search + HUD", 
+        "doesIncludeTargetNumber": true, 
+        "gridIndexInCondition": 2, 
+        "height": 10, 
+        "id": "b9145d38-ef67-43d1-9b66-842718da765d", 
         "maxValue": 100, 
         "minValue": 10, 
         "numberOfGridsPerCondition": 5, 
-        "session": "testing", 
-        "height": 10, 
-        "id": "bec5fbfb-1c51-4a2f-9575-99e6bd47d0bb", 
-        "condition": "Visual Search + HUD", 
-        "targetNumber": 57, 
-        "gridIndexInCondition": 2, 
-        "targetNumberInclusionProbability": 0.5, 
         "numberOfStimuli": 36, 
-        "width": 10, 
-        "version": "1.0", 
+        "session": "testing", 
+        "targetNumber": 57, 
+        "targetNumberInclusionProbability": 0.5, 
         "values": [
             [
                 null, 
@@ -3833,22 +3859,23 @@
                 10, 
                 55
             ]
-        ]
+        ], 
+        "version": "1.1", 
+        "width": 10
     }, 
     {
+        "condition": "Visual Search + HUD", 
+        "doesIncludeTargetNumber": false, 
+        "gridIndexInCondition": 3, 
+        "height": 10, 
+        "id": "1b55c99e-fb62-4175-b69a-c06f4b0a6aa2", 
         "maxValue": 100, 
         "minValue": 10, 
         "numberOfGridsPerCondition": 5, 
-        "session": "testing", 
-        "height": 10, 
-        "id": "7f0fa334-e172-4d48-a0fe-7aa563c125ed", 
-        "condition": "Visual Search + HUD", 
-        "targetNumber": 57, 
-        "gridIndexInCondition": 3, 
-        "targetNumberInclusionProbability": 0.5, 
         "numberOfStimuli": 36, 
-        "width": 10, 
-        "version": "1.0", 
+        "session": "testing", 
+        "targetNumber": 57, 
+        "targetNumberInclusionProbability": 0.5, 
         "values": [
             [
                 null, 
@@ -3970,22 +3997,23 @@
                 null, 
                 89
             ]
-        ]
+        ], 
+        "version": "1.1", 
+        "width": 10
     }, 
     {
+        "condition": "Visual Search + HUD", 
+        "doesIncludeTargetNumber": true, 
+        "gridIndexInCondition": 4, 
+        "height": 10, 
+        "id": "97cd2dfb-555c-4c95-9d89-1dfa3be19219", 
         "maxValue": 100, 
         "minValue": 10, 
         "numberOfGridsPerCondition": 5, 
-        "session": "testing", 
-        "height": 10, 
-        "id": "cb13de75-74b4-4b48-afde-485b2e130062", 
-        "condition": "Visual Search + HUD", 
-        "targetNumber": 57, 
-        "gridIndexInCondition": 4, 
-        "targetNumberInclusionProbability": 0.5, 
         "numberOfStimuli": 36, 
-        "width": 10, 
-        "version": "1.0", 
+        "session": "testing", 
+        "targetNumber": 57, 
+        "targetNumberInclusionProbability": 0.5, 
         "values": [
             [
                 null, 
@@ -4107,6 +4135,8 @@
                 null, 
                 null
             ]
-        ]
+        ], 
+        "version": "1.1", 
+        "width": 10
     }
 ]
