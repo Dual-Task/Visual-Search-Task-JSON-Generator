@@ -7,7 +7,7 @@ import json
 import random
 import uuid
 
-VERSION = '1.1'
+VERSION = '1.2'
 
 CONFIG_FILE = 'config.json'
 
@@ -119,8 +119,9 @@ def main():
     number_of_stimuli = config['gridNumberOfStimuli']
 
     conditions = config['studyConditions']
-    number_of_grids_per_condition = config['studyNumberOfGridsPerCondition']
+    number_of_grids_per_run = config['studyNumberOfGridsPerRun']
     sessions = config['studySessions']
+    session_to_number_of_runs = config['studySessionToNumberOfRuns']
 
     # Begin generating outputs
     grids = []
@@ -130,34 +131,36 @@ def main():
         # For each condition (Visual Search, Visual Search + HUD, etc.)
         for condition in conditions:
             # For each grid
-            for grid_index_in_condition in range(number_of_grids_per_condition):
-                # Get a new grid
-                grid, does_include_target_number = generate_random_grid(
-                    width=width,
-                    height=height,
-                    number_of_stimuli=number_of_stimuli,
-                    min_value=min_value, max_value=max_value,
-                    target_number=target_number,
-                    target_number_inclusion_probability=target_number_inclusion_probability,
-                )
+            for run_index_in_condition in range(session_to_number_of_runs[session]):
+                for grid_index_in_run in range(number_of_grids_per_run):
+                    # Get a new grid
+                    grid, does_include_target_number = generate_random_grid(
+                        width=width,
+                        height=height,
+                        number_of_stimuli=number_of_stimuli,
+                        min_value=min_value, max_value=max_value,
+                        target_number=target_number,
+                        target_number_inclusion_probability=target_number_inclusion_probability,
+                    )
 
-                grids.append({
-                    'id': str(uuid.uuid4()),
-                    'version': VERSION,
-                    'session': session,
-                    'condition': condition,
-                    'targetNumber': target_number,
-                    'doesIncludeTargetNumber': does_include_target_number,
-                    'width': width,
-                    'height': height,
-                    'minValue': min_value,
-                    'maxValue': max_value,
-                    'targetNumberInclusionProbability': target_number_inclusion_probability,
-                    'numberOfStimuli': number_of_stimuli,
-                    'gridIndexInCondition': grid_index_in_condition,
-                    'numberOfGridsPerCondition': number_of_grids_per_condition,
-                    'values': grid,
-                })
+                    grids.append({
+                        'id': str(uuid.uuid4()),
+                        'version': VERSION,
+                        'session': session,
+                        'condition': condition,
+                        'targetNumber': target_number,
+                        'doesIncludeTargetNumber': does_include_target_number,
+                        'width': width,
+                        'height': height,
+                        'minValue': min_value,
+                        'maxValue': max_value,
+                        'targetNumberInclusionProbability': target_number_inclusion_probability,
+                        'numberOfStimuli': number_of_stimuli,
+                        'runIndex': run_index_in_condition,
+                        'gridIndexInRun': grid_index_in_run,
+                        'numberOfGridsPerCondition': number_of_grids_per_run,
+                        'values': grid,
+                    })
 
     # Write the grid to the output file
     with open(GRIDS_FILE, 'w+') as output_file:
