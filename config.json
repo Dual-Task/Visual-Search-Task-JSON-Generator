@@ -6,7 +6,7 @@
   "gridMaxValue": 99,
   "gridTargetNumber": 57,
   "gridTargetNumberInclusionProbability": 0.50,
-  "gridNumberOfStimuli": 9,
+  "gridNumberOfStimuli": 25,
   "studyConditions": [
     "Visual Search",
     "Visual Search + Watch",
